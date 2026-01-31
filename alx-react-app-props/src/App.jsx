@@ -1,20 +1,13 @@
-import './App.css'
-import WelcomeMessage from './components/WelcomeMessage'
-import Header from './components/Header.jsx'
-import MainContent from './components/MainContent.jsx'
-import Footer from './components/Footer.jsx'
-import UserProfile from './components/UserProfile.jsx'
-
+import ProfilePage from './components/ProfilePage';
+import UserContext from './components/UserContext';
 function App() {
-  return (
-    <>
-      <Header />
-      <MainContent />
-      <WelcomeMessage />
-      <UserProfile name="Alice" age="25" bio="Loves hiking and photography" /> 
-     <Footer />
-    </>
-  )
+  const userData = { name: "Jane Doe", email: "jane.doe@example.com" };
+
+  return(
+    <UserContext.Provider value={userData}>
+      <ProfilePage />
+    </UserContext.Provider>
+  );
 }
 
-export default App
+export default App;
