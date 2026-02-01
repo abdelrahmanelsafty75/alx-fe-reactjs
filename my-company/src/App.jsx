@@ -5,7 +5,7 @@ import Contact from './components/Contact';
 import Services from './components/Services';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
-import {BrowserRouter, Routes, Route, Link} from "react-router-dom";
+import {BrowserRouter, Routes, Route} from "react-router-dom";
 function App() {
 
   return (
