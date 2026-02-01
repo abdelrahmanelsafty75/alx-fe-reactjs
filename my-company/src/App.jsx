@@ -5,6 +5,7 @@ import About from './components/About';
 import Contact from './components/Contact';
 import Services from './components/Services';
 import Navebar from './components/Navebar';
+import Footer from './components/Footer';
 import {BrowserRouter, Routes, Route, Link} from "react-router-dom";
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
           <Route path="/services" element={<Services />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
+        <Footer />
     </BrowserRouter>
   );
 }
