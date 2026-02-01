@@ -4,14 +4,14 @@ import Home from './components/Home';
 import About from './components/About';
 import Contact from './components/Contact';
 import Services from './components/Services';
-import Navebar from './components/Navebar';
+import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import {BrowserRouter, Routes, Route, Link} from "react-router-dom";
 function App() {
 
   return (
     <BrowserRouter>
-      <Navebar />
+      <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
