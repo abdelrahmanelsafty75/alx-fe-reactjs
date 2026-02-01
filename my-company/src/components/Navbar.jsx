@@ -6,7 +6,7 @@ function Navbar() {
     }
   return (
     <div>
-        <nav style={{ padding: '10px', borderBottom: '1px solid #ccc' }}>
+        <nav style={{ padding: '10px', borderBottom: '1px solid #ccc', backgroundColor: '#242424', display: 'flex', justifyContent: 'center' }}>
             <Link to="/" style={navStyle}>Home</Link>
             <Link to="/about" style={navStyle}>About</Link>
             <Link to="/services" style={navStyle}>Services</Link>
