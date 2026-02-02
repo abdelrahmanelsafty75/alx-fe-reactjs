@@ -1,5 +1,7 @@
 import useRecipeStore from './recipeStore';
 import { useState } from 'react';
+import {useNavigate} from 'react-router-dom'
+
 function EditRecipeForm({recipeID}) {
     const updateRecipe = useRecipeStore(state => state.updateRecipe);
 
@@ -11,9 +13,12 @@ function EditRecipeForm({recipeID}) {
     const [title, setTitle] = useState(recipe.title);
     const [description, setDescription] = useState(recipe.description);
 
+     const navigate = useNavigate();
+
     const handleSubmit = (event) => {
       event.preventDefault();
       updateRecipe({ id: recipeID, title, description });
+        navigate('/');
     }
     return (
         <form onSubmit={handleSubmit}>
