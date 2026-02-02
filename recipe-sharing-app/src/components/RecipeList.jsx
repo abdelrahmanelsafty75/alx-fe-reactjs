@@ -5,6 +5,7 @@ import  useRecipeStore  from './recipeStore';
 
     return (
       <div>
+         {recipes.length === 0 ? <p>No recipes yet.</p> : null}
         {recipes.map(recipe => (
           <div key={recipe.id}>
             <h3>{recipe.title}</h3>
