@@ -14,7 +14,7 @@ import { useState } from 'react';
     };
 
     return (
-      <form onSubmit={handleSubmit}>
+      <form onSubmit={handleSubmit} style={{ marginBottom: '20px', display: 'flex', flexDirection: 'column', gap: '10px' }}>
         <input
           type="text"
           value={title}
