@@ -3,18 +3,24 @@
     "id": 1,
     "title": "Spaghetti Carbonara",
     "summary": "A classic Italian pasta dish with eggs, cheese, bacon, and black pepper.",
-    "image": "https://images.unsplash.com/photo-1612874742237-6526221588e3?q=80&w=500"
+    "image": "https://images.unsplash.com/photo-1612874742237-6526221588e3?q=80&w=500",
+    "ingredients": ["200g spaghetti", "100g pancetta", "2 large eggs", "50g pecorino cheese"],
+    "instructions": ["Boil pasta.", "Fry pancetta.", "Mix eggs and cheese.", "Combine everything."]
   },
   {
     "id": 2,
     "title": "Chicken Tikka Masala",
     "summary": "Grilled chicken cooked in a smooth, creamy tomato based gravy.",
-    "image": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?q=80&w=500"
+    "image": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?q=80&w=500",
+    "ingredients": ["500g chicken breast", "1 cup yogurt", "2 tbsp tikka masala spice", "1 cup tomato puree", "1/2 cup cream"],
+    "instructions": ["Marinate chicken in yogurt and spice.", "Grill until cooked.", "Simmer tomato puree and cream.", "Add chicken to sauce.", "Serve with rice."]
   },
   {
     "id": 3,
     "title": "Classic Beef Burger",
     "summary": "Juicy beef patty with fresh lettuce, tomato, and our secret sauce.",
-    "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?q=80&w=500"
+    "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?q=80&w=500",
+    "ingredients": ["500g ground beef", "4 burger buns", "4 lettuce leaves", "2 tomatoes", "4 cheese slices", "Burger sauce"],
+    "instructions": ["Form beef into patties.", "Grill patties for 4 mins each side.", "Add cheese on top.", "Toast buns.", "Assemble burger with sauce, lettuce, tomato."]
   }
 ]
